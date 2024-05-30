@@ -1,0 +1,127 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    margin: auto;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+.container {
+    max-width: 1920px;
+    height: 844px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+body {
+    font-family: Roboto, sans-serif;
+    color: #000;
+}
+.first{
+    border: 2px solid rgba(246, 190, 145, 1);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(./img/—Pngtree—green\ fresh\ sky\ grass\ illustration_920699\ 2.jpg);
+
+}
+.header-block{
+    display: flex;
+    position:relative;
+    justify-content: space-between;
+    align-items: center;
+    width: 1162px;
+    height: 113px;
+    margin-top: 23px;
+    margin-left: 240px;
+
+}
+.petnaturals{
+    width: 283px;
+    height: 89px;
+       
+}
+.petnaturals-menu{
+    width: 446px;
+    height: 102px;
+    margin-left: 387px;
+        
+}
+.title-section-first{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+
+    color: rgba(249, 233, 148, 1);
+}
+.petnaturals-menu-nav{
+  display: flex;
+  position:absolute;
+  list-style: none;
+  gap: 51px;
+  top: 43px;
+  right: 120px;
+}
+.link{ 
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: left;
+    color: rgba(113, 93, 0, 1);
+}
+.link:hover,
+.link:focus{
+    color: blue;
+}
+.info-block{
+    display: flex;
+}
+.block-text{
+    width: 439px;
+    height: 428px;
+}
+.text-section-first{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: left;
+    color: #F6F7E4;
+    padding-bottom: 60px;
+}
+.block-list{
+    display: flex;
+    width: 323px;
+    height: 266px;
+    background-color: #7FB3E1;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 0px 38px 35px;
+    gap: 20px;
+
+    color: #DFE4DE ;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: left;
+}
+.cats{
+    width: 710px;
+    height: 417px;
+    justify-content: center;
+
+}
