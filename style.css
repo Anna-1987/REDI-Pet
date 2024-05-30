@@ -41,12 +41,11 @@ body {
 .header-block{
     display: flex;
     position:relative;
-    justify-content: space-between;
     align-items: center;
     width: 1162px;
     height: 113px;
     margin-top: 23px;
-    margin-left: 240px;
+    margin-left: 406px;
 
 }
 .petnaturals{
@@ -87,12 +86,17 @@ body {
 .link:focus{
     color: blue;
 }
-.info-block{
+.block-info{
     display: flex;
+    position: relative;
+    padding-left: 380px;
+    padding-right: 380px;
+    gap:484px;
+
 }
 .block-text{
-    width: 439px;
     height: 428px;
+    margin-top: 42px;
 }
 .text-section-first{
     font-size: 26px;
@@ -122,6 +126,41 @@ body {
 .cats{
     width: 710px;
     height: 417px;
-    justify-content: center;
+    position: absolute;
+    left: 640px;
+    top: 46px;
+    
 
+}
+
+.block-forma{
+    width: 270px;
+    height: 462px;
+    background-color: #F6F7E4;
+    border-radius: 20px 20px 10px 10px;
+    padding: 24px 24px 20px 24px;
+}
+
+
+/* ---------------------section 2 ------------------*/
+.section-second{
+    background-image: url(./img/pngegg\ \(1\)\ 22.jpg);
+    padding-top: 100px ;
+}
+.title-section-second{
+   color: linear-gradient(180deg, #F9E994 0%, #537D13 56.25%, #483C08 100%);;
+}
+.block-cards{
+    display:flex;
+    gap: 84px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.block-second{
+    width: 305px;
+    height: 439px;
+    border-radius: 20px;
+    background-color: #F6E791;
 }
