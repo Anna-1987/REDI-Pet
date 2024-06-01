@@ -9,7 +9,7 @@ h6 {
 }
 
 ul {
-    margin: auto;
+    /* margin: auto; */
     padding-left: 0;
 }
 
@@ -21,7 +21,7 @@ img {
 }
 
 .container {
-    max-width: 1920px;
+    max-width: 480px;
     height: auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -41,9 +41,6 @@ body {
     display: flex;
     position:relative;
     align-items: center;
-    width: 1162px;
-    height: 113px;
-    margin: 23px auto;
 }
 
 .petnaturals{
@@ -53,31 +50,33 @@ body {
        
 }
 .petnaturals-menu{
-    display: flex;
-    gap: 16px;
-    width: 146px;
     height: 102px;
-    margin-left: 48px;
-        
 }
 .title-section-first{
     font-size: 32px;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 1.2;
     text-align: center;
 
     color: rgba(249, 233, 148, 1);
 }
+.petnaturals-logo{
+    position: absolute;
+    width: 104px;
+    top: 13px;
+    right: 40%;
+}
 .petnaturals-menu-nav{
-  padding: 0;
-  position:absolute;
+  display: flex;
+  position: absolute;
+  gap: 10px;
   list-style: none;
-  top: 43px;
-  right: 820px;
+  top: 30%;
+  right: 23%;
 }
 .link{ 
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 1.2;
     text-align: left;
     color: rgba(113, 93, 0, 1);
@@ -87,28 +86,30 @@ body {
     color: blue;
 }
 .block-info{
+    width: 300px;
     position: relative;
     margin: auto;
-    justify-content: center;
+    align-items: center;
 
 }
 .block-text{
-    width: 260px;
-    text-align: center;
     margin-top: 42px;
     margin-bottom: 42px;
+    text-align: center;
+    justify-content: center;
 }
 .text-section-first{
     font-size: 26px;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 34px;
-    text-align: left;
+    text-align: center;
+    justify-content: center;
     color: #F6F7E4;
     padding-bottom: 40px;
 }
 .block-list{
     display: flex;
-    width: 300px;
+    width: auto;
     height: 266px;
     background-color: #7FB3E1;
     border-radius: 20px;
@@ -140,7 +141,6 @@ li:last-child{
 }
 .paw{
     width: 18px;
-    height: 24px;
 }
 .paw-item{
     display: flex;
@@ -150,7 +150,7 @@ li:last-child{
 }
 .block-forma-all{
     /* position: relative; */
-    width: 300px;
+    width: auto;
     height: 462px;
     background-color: rgba(253, 252, 252, 1);
     border-radius: 20px 20px 10px 10px;
@@ -227,13 +227,17 @@ li:last-child{
     height: 50px;
     border-radius: 30px;
     margin-bottom: 16px;
-    border: 1px solid rgba(243, 239, 239, 1);
+    border: 1px solid transparent;
     background-color: rgba(243, 239, 239, 1);
     padding-left: 20px;
 }
+input{
+    outline: none;
+    border: none;
+}
 .input-icon{ 
     position: absolute;
-    left: 16px;
+    left: 8%;
     top: 50%;
     fill: rgba(119, 119, 119, 1);
     transform: translateY(-50%);
@@ -271,30 +275,35 @@ li:last-child{
 .section-second{
     background-image: url(./img/pngegg\ \(1\)\ 22.jpg);
     padding-top: 100px ;
-    padding-bottom: 100px;
+    padding-bottom: 60px;
 }
 .title-section-second{
-   color: linear-gradient(180deg, #F9E994 0%, #537D13 56.25%, #483C08 100%);;
+    background: linear-gradient(180deg, #F9E994 0%, #537D13 56.25%, #483C08 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 .block-cards{  
+    width: 300px;
+    margin: auto;
     justify-content: center;
     align-items: center;
-    padding-top: 60px;
+    padding-top: 30px;
 }
 
 .block-second{
-    width: 305px;
-    height: 439px;
     border-radius: 20px;
     background-color: #F6E791;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
     padding-bottom: 14px;
+    justify-content: center;
 }
 .img-stction-second{
-    width: 164px;
-    height: 164px;
-    margin: 25px auto;
+    width: 124px;
+    height: 124px;
+    margin:24px auto;
+    padding-top: 10px;
     
 }
 .block-second-text{
@@ -309,7 +318,7 @@ li:last-child{
 .text-title{
     font-size: 22px;
     font-weight: 700;
-    line-height: 25.78px;
+    line-height: 1.2;
     text-align: left;
     color: rgba(255, 255, 255, 1);
     margin-bottom: 20px;
@@ -317,39 +326,39 @@ li:last-child{
 .text-info-second{
     font-size: 18px;
     font-weight: 400;
-    line-height: 21.09px;
+    line-height: 1.2;
     text-align: center;
-    color: rgba(72, 60, 8, 1);;
+    color: rgba(72, 60, 8, 1);
 }
 
 /* ------------------------------section3 --------------------*/
 
-.section-fird{
+.section-third{
 background-image: linear-gradient(#E1EDF8, rgba(127, 179, 225, 0), rgba(0, 0, 0, 0.25));
 padding-top: 56px;
 }
-.block-section-third{
+.title-section-third{
+ color:  rgba(83, 125, 19, 1);
 }
+
 .img-block{
     width: 760px;
     height: 354px;
 }
 .img-cat{
-    width: 300px;
-    height: 300px;
+    display: none;
+    padding-top: 24px;
 }
 .img-grass{
-    margin-top: 108px;
+    margin-top: 60px;
 }
 .img-text{
     padding-top: 44px;
 }
 .img-block-text{
-    width: auto;
     border: 12px solid rgba(212, 223, 109, 1);
     position: relative;
-    clip-path: polygon(0 0, 80% 0, 100% 50%, 80% 100%, 0 100%);
-    padding: 20px;
+    width: auto;
     
 }
 .text-in-block{
@@ -357,388 +366,243 @@ padding-top: 56px;
     font-weight: 400;
     line-height: 23px;
     text-align: left;
+    padding: 12px 12px;
 }
 
+/* -!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-----------------------------------------------
+-------------------------------------------------------------!!!!!!!!!!!!!!!!!!!!!!!!! */
 @media screen and (min-width: 480px) {
     .container {
-        max-width: 428px;
+       width: 768px;
+       max-width: 768px;
     }
+  .header-block {
+      display: flex;
+      position: relative;
+      align-items: center;
+      width: auto;
+      height: 113px;
+  }
+
+  .petnaturals {
+      display: block;
+      width: 243px;
+      height: 89px;
+
+  }
+
+  .petnaturals-menu {
+      width: 446px;
+      margin-left: auto;
+
+  }
+
+  .title-section-first {
+      font-size: 52px;
+      font-weight: 700;
+  }
+
+  .petnaturals-logo {
+      display: none;
+  }
+
+  .petnaturals-menu-nav {
+      gap: 51px;
+      top: 20%;
+      right: 10%;
+  }
+
+  .block-info {
+      display: flex;
+      position: relative;
+      gap: 92px;
+      justify-content: center;
+      align-items: center;
+
+  }
+
+  .text-section-first {
+      padding-bottom: 30px;
+  }
+
+  .block-list {
+      width: 323px;
+
+  }
 
 
+  /* ---------------------section 2 ------------------*/
+
+  .block-cards {
+      width: 760px;
+      display: flex;
+      gap: 34px;
+      padding-top: 60px;
+  }
+  .text-title {
+      font-size: 14px;
+      text-align: center;
+      margin-bottom: 16px;
+  }
+
+  .block-second-text {
+      width: 200px;
+      height: 242px;
+      padding: 10px 12px 18px 12px;
+
+  }
+
+  .img-section-second {
+      width: auto;
+      height: auto;
+
+  }
+
+  /* ------------------------------section3 --------------------*/
+
+  .section-fird {
+      padding-top: 60px;
+  }
+
+  /* .block-section-third {
+      display: flex;
+      position: relative;
+      height: 354px;
+  }
+  .text-info-second {
+      font-size: 16px;
+  }
+  .img-text {
+      display: flex;
+      gap: 28px;
+  }
+} */
 }
-
- @media screen and (min-width: 768px) {
+ @media screen and (min-width: 1120px) {
      .container {
-         max-width: 768px;
+        width: 1200px;
+         max-width: 1440px;
      }
 
          .header-block {
-             display: flex;
-             position: relative;
-             align-items: center;
              width: 1162px;
-             height: 113px;
-             margin: 23px auto;
          }
     
          .petnaturals {
              width: 283px;
-             height: 89px;
     
          }
     
          .petnaturals-menu {
-             width: 446px;
-             height: 102px;
              margin-left: 387px;
     
          }
     
-         .title-section-first {
-             font-size: 52px;
-             font-weight: 700;
-             line-height: 1.2;
-             text-align: center;
-    
-             color: rgba(249, 233, 148, 1);
-         }
-    
-         .petnaturals-menu-nav {
-             display: flex;
-             position: absolute;
-             list-style: none;
-             gap: 51px;
-             top: 43px;
-             right: 120px;
-         }
-    
-         .link {
-             font-size: 20px;
-             font-weight: 700;
-             line-height: 1.2;
-             text-align: left;
-             color: rgba(113, 93, 0, 1);
-         }
-    
-         .link:hover,
-         .link:focus {
-             color: blue;
-         }
-    
          .block-info {
-             display: flex;
-             position: relative;
-             width: 1184px;
+             width: 1164px;
              margin: auto;
-             gap: 462px;
+             gap: 420px;
     
-         }
-    
-         .block-text {
-             height: 428px;
-             margin-top: 42px;
          }
     
          .text-section-first {
-             font-size: 26px;
-             font-weight: 700;
-             line-height: 34px;
-             text-align: left;
-             color: #F6F7E4;
              padding-bottom: 60px;
+             text-align: left;
          }
+         .block-text {
+            width: 439px;
+    
+        }
     
          .block-list {
-             display: flex;
              width: 323px;
-             height: 266px;
-             background-color: #7FB3E1;
-             border-radius: 20px;
-             justify-content: center;
-             align-items: center;
-             gap: 20px;
-    
-             color: #DFE4DE;
-             font-size: 22px;
-             font-weight: 700;
-             line-height: 1.2;
-             text-align: left;
-         }
-    
-         li {
-             margin-bottom: 20px;
-             list-style: none;
-         }
-    
-         li:last-child {
-             margin-bottom: 0;
+            
          }
     
          .cats {
-             width: 710px;
-             height: 417px;
-             position: absolute;
-             left: 264px;
-             top: 52px;
-             z-index: 3;
-         }
-    
-         .paw {
-             width: 18px;
-             height: 24px;
-         }
-    
-         .paw-item {
-             display: flex;
-             gap: 14px;
-             justify-content: left;
-             align-items: center;
-         }
-    
-         .block-forma-all {
-             /* position: relative; */
-             width: 268px;
-             height: 462px;
-             background-color: rgba(253, 252, 252, 1);
-             border-radius: 20px 20px 10px 10px;
-         }
-    
-         .form-head {
-             background-color: rgba(126, 178, 225, 1);
-             -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
-             clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
-             justify-content: center;
-             align-items: center;
-             width: 270px;
-             height: 190px;
-             border-radius: 20px 20px 0px 0px;
-             text-align: center;
-             padding: 20px 24px;
-             margin-bottom: 22px;
-    
-         }
-    
-         .timeleft {
-             font-size: 33px;
-             font-weight: 700;
-             line-height: 1.2;
-             color: rgba(72, 60, 8, 1);
-    
-         }
-    
-         .timer {
-             font-size: 36px;
-             font-weight: 700;
-             line-height: 1.2;
-             color: rgba(246, 231, 145, 1)
-         }
-    
-         .block-uah {
-             display: flex;
-             gap: 16px;
-             margin: auto;
-         }
-    
-         .last-auh {
-             font-size: 30px;
-             font-weight: 700;
-             line-height: 1.2;
-             color: rgba(107, 107, 107, 1);
-    
-             white-space: pre;
-             position: relative;
-             display: inline-block;
-         }
-    
-         .last-auh::after {
-             content: "";
              display: block;
+             width: 700px;
+             height: 410px;
              position: absolute;
-             left: 0;
-             top: 50%;
-             color: rgba(246, 190, 145, 1);
-             width: 100%;
-             height: 0;
-             border-bottom: 2px solid rgba(246, 190, 145, 1);
-             transform: rotate(-16deg);
+             left: 23%;
+             top: 16%;
          }
-    
-         .new-auh {
-             font-size: 36px;
-             font-weight: 700;
-             line-height: 1.2;
-             color: rgba(72, 60, 8, 1);
-         }
-    
-         .block-forma {
-             top: 4px;
-             padding-left: 24px;
-         }
-    
-         .input-form {
-             position: relative;
-             width: 210px;
-             height: 50px;
-             border-radius: 30px;
-             margin-bottom: 16px;
-             border: 1px solid rgba(243, 239, 239, 1);
-             background-color: rgba(243, 239, 239, 1);
-             padding-left: 20px;
-         }
-    
-         .input-icon {
-             position: absolute;
-             left: 16px;
-             top: 50%;
-             fill: rgba(119, 119, 119, 1);
-             transform: translateY(-50%);
-             outline: transparent;
-         }
-    
-         .form-button {
-             width: 222px;
-             height: 50px;
-             color: rgba(255, 255, 255, 1);
-             background-color: rgba(161, 211, 55, 1);
-             border-radius: 30px;
-             border-color: transparent;
-    
-             font-size: 30px;
-             font-weight: 700;
-             line-height: 1.2;
-             text-align: center;
-             margin-left: 24px;
-         }
-    
-         .block-data {
-             display: flex;
-             gap: 6px;
-             text-align: center;
-             justify-content: center;
-             align-items: center;
-             padding-top: 30px;
-    
-         }
-    
-         .orderdata {
-             text-align: center;
-         }
-    
+      
     
          /* ---------------------section 2 ------------------*/
          .section-second {
-             background-image: url(./img/pngegg\ \(1\)\ 22.jpg);
-             padding-top: 100px;
              padding-bottom: 100px;
          }
     
-         .title-section-second {
-             color: linear-gradient(180deg, #F9E994 0%, #537D13 56.25%, #483C08 100%);
-             ;
-         }
-    
          .block-cards {
-             display: flex;
              gap: 84px;
-             justify-content: center;
-             align-items: center;
-             padding-top: 60px;
+         }
+        .block-second-text {
+            width: 275px;
+            height: 200px;
+            padding: 14px 16px 22px 16px;
+        
+         }
+        
+        .text-title {
+            font-size: 22px;
+            margin-bottom: 20px;
+         }
+        
+         .text-info-second {
+            font-size: 18px;
          }
     
-         .block-second {
-             width: 305px;
-             height: 439px;
-             border-radius: 20px;
-             background-color: #F6E791;
-             padding-left: 16px;
-             padding-right: 16px;
-             padding-bottom: 14px;
-         }
-    
-         .img-stction-second {
+         .img-section-second {
              width: 164px;
              height: 164px;
-             margin: 25px auto;
     
-         }
-    
-         .block-second-text {
-             width: 275px;
-             height: 200px;
-             margin: 0 auto;
-             border-radius: 20px;
-             background-color: rgba(161, 211, 55, 0.4);
-             padding: 14px 16px 22px 16px;
-    
-    
-         }
-    
-         .text-title {
-             font-size: 22px;
-             font-weight: 700;
-             line-height: 25.78px;
-             text-align: left;
-             color: rgba(255, 255, 255, 1);
-             margin-bottom: 20px;
-         }
-    
-         .text-info-second {
-             font-size: 18px;
-             font-weight: 400;
-             line-height: 21.09px;
-             text-align: center;
-             color: rgba(72, 60, 8, 1);
-             ;
          }
     
          /* ------------------------------section3 --------------------*/
     
          .section-fird {
-             background-image: linear-gradient(#E1EDF8, rgba(127, 179, 225, 0), rgba(0, 0, 0, 0.25));
              padding-top: 100px;
          }
-    
-         .block-section-third {
-             display: flex;
-             position: relative;
-             height: 354px;
-         }
-    
-         .img-block {
-             width: 760px;
-             height: 354px;
-         }
-    
-         .img-cat {
-             width: 300px;
-             height: 300px;
-         }
-    
-         .img-grass {
-             margin-top: 108px;
-         }
+
     
          .img-text {
-             display: flex;
-             gap: 28px;
-             padding-top: 44px;
-             padding-left: 328px;
+             margin: auto;
+            
          }
-    
-         .img-block-text {
-             width: 760px;
-             height: 354px;
-             border: 12px solid rgba(212, 223, 109, 1);
-             position: relative;
-             clip-path: polygon(0 0, 80% 0, 100% 50%, 80% 100%, 0 100%);
-             padding: 20px;
-    
-         }
-    
-         .text-in-block {
-             font-size: 18px;
-             font-weight: 400;
-             line-height: 23px;
-             text-align: left;
-         }
- }
+        .img-block-text {
+            width: 760px;
+        
+        }
+        
+        .text-in-block {
+            width: 612px;
+        }
+        .block-section-third {
+              display: flex;
+              position: relative;
+              height: 354px;
+          }
+        .text-info-second {
+              font-size: 16px;
+          }
+        .img-text {
+              display: flex;
+              gap: 28px;
+          }
+        .img-cat {
+             display: block;
+            padding-top: 24px;
+        }
+
+        .img-block-text {
+            position: relative;
+           clip-path: polygon(0 0, 80% 0, 100% 50%, 80% 100%, 0 100%);
+       }
+
+        .img-grass {
+            margin-top: 108px;
+           }
+
+        }
+ 
